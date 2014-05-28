@@ -56,6 +56,6 @@ apt::source { "zabbix":
 	location => " http://repo.zabbix.com/zabbix/2.2/ubuntu",
 	release => "precise",
 	pin => "-10"
-	key_link => "http://repo.zabbix.com/zabbix-official-repo.key",
+	key => "http://repo.zabbix.com/zabbix-official-repo.key",
 }
 </pre>
